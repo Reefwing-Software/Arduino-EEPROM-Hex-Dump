@@ -3,6 +3,8 @@
 # Arduino EEPROM Hex Dump
 An Arduino sketch which outputs the contents of the EEPROM to the Serial Monitor, in both hexadecimal and ASCII format. The `RAMEND`, `E2END`, and `FLASHEND` macros are used to display the maximum memory addresses and sizes.
 
+![Hex Dump Output](https://github.com/Reefwing-Software/Arduino-EEPROM-Hex-Dump/blob/main/images/eeprom_hex_dump.png)
+
 *The following is an extract from our Medium article regarding Memory Usage on the Arduino and EEPROM...*
 
 ![Arduino Memory Map](https://github.com/Reefwing-Software/Arduino-EEPROM-Hex-Dump/blob/main/images/arduino_mem_map.png)
