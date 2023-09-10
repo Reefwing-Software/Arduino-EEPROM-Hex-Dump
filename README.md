@@ -1,7 +1,9 @@
 [![arduino-library-badge](https://www.ardu-badge.com/badge/EEPROM_Hex_Dump.svg?)](https://www.ardu-badge.com/Arduino-EEPROM-Hex-Dump) ![version](https://img.shields.io/github/v/tag/Reefwing-Software/Arduino-EEPROM-Hex-Dump) ![license](https://img.shields.io/badge/license-MIT-green) ![release](https://img.shields.io/github/release-date/Reefwing-Software/Arduino-EEPROM-Hex-Dump?color="red") ![open source](https://badgen.net/badge/open/source/blue?icon=github)
 
 # Arduino EEPROM Hex Dump
-An Arduino sketch which outputs the contents of the EEPROM to the Serial Monitor, in both hexadecimal and ASCII format. The following is an extract from my Medium article regarding Memory Usage on the Arduino and EEPROM...
+An Arduino sketch which outputs the contents of the EEPROM to the Serial Monitor, in both hexadecimal and ASCII format. The `RAMEND`, `E2END`, and `FLASHEND` macros are used to display the maximum memory addresses and sizes.
+
+*The following is an extract from my Medium article regarding Memory Usage on the Arduino and EEPROM...*
 
 There will come a point where you will want to store data which isn't lost when your microprocessor loses power. This is particularly handy for storing calibration or configuration values, to save you having to re-calibrate some piece of hardware (e.g., IMUs, and servos) every time the power cycles. One solution for Arduino boards is using EEPROM (Electrically Erasable Programmable Read-Only Memory).
 
